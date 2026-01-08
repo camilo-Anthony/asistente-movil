@@ -1,0 +1,29 @@
+# Archivos ignorados
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+.venv
+venv/
+ENV/
+# Config con API keys (no subir)
+configs/config.json
+
+
+# Spotify cache
+.spotify_cache
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log

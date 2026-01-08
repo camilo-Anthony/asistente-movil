@@ -1,0 +1,26 @@
+{
+    "assistant": {
+        "wake_word": "yeni",
+        "voice_enabled": true,
+        "language": "es"
+    },
+    "llm": {
+        "provider": "groq",
+        "api_key": "TU_API_KEY_GROQ_AQUI",
+        "model": "llama-3.3-70b-versatile"
+    },
+    "mcps": {
+        "mobile": {
+            "enabled": true
+        },
+        "spotify": {
+            "enabled": true,
+            "client_id": "TU_CLIENT_ID_SPOTIFY",
+            "client_secret": "TU_CLIENT_SECRET_SPOTIFY",
+            "redirect_uri": "http://localhost:8888/callback"
+        },
+        "youtube": {
+            "enabled": true
+        }
+    }
+}
